@@ -1,0 +1,17 @@
+.noticias {
+    max-width: 1200px;
+}
+
+.uno {
+    padding: 5px;
+}
+
+.uno:hover,
+.dos:hover {
+    transform: scale(1.03);
+}
+
+.uno,
+.dos {
+    flex: 300px;
+}

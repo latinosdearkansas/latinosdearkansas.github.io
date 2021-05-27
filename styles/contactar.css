@@ -1,0 +1,16 @@
+.noticias {
+    display: block;
+    padding: 0 6rem 0 0;
+}
+
+.noticias div h3 {
+    margin-bottom: 1rem;
+}
+
+.noticias div p {
+    margin-bottom: 4rem;
+}
+
+.contacto {
+    width: 40px;
+}

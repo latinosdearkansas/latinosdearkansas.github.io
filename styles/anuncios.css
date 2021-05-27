@@ -1,0 +1,17 @@
+.noticias {
+    display: block;
+}
+
+.noticias .section {
+    padding: 15px;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+
+.noticias .section h4 {
+    margin-bottom: 1rem;
+}
+
+.section div {
+    width: 250px;
+}

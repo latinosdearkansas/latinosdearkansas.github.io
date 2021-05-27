@@ -1,0 +1,18 @@
+
+
+.noticias .section {
+    padding: 15px;
+}
+
+.centrar {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.noticias .section h3 {
+    margin: 1.5rem 0;
+}
+
+.noticias .section p {
+    margin-bottom: 1.5rem;
+}

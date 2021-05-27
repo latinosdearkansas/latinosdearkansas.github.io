@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border: 1px solid lightseagreen; */
+}
+
+:root {
+    --header: #fafafa;
+    --navigation: #333333;
+    --section-1: #fafafa;
+    --section-2: lightcoral;
+    --section-3: lightblue;
+    --footer:  #e6f3e8;
+}
+
+p {
+    line-height: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%
+}
+
+header,
+nav,
+section,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container {
+    /* min-height: 80px; */
+    width: 1200px;
+    /* background-color: orangered; */
+}
+
+
+
+/* -----  HEADER  ----- */
+header {
+    background-color: var(--header);
+    color: #303030;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header img {
+    width: 40px;
+}
+
+.main-header h1 {
+    margin: 0 20px;
+}
+
+
+
+/* -----  Navigation  ----- */
+nav {
+    padding: 5px;
+    background-color: var(--navigation);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075),
+                0 2px 2px rgba(0, 0, 0, 0.075),
+                0 4px 4px rgba(0, 0, 0, 0.075),
+                0 8px 8px rgba(0, 0, 0, 0.075);
+}
+
+.navigation-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.navigation-buttons img {
+    width: 30px;
+}
+
+.navigation-buttons a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    color: var(--header);
+}
+
+.navigation-buttons a:hover {
+    text-decoration: underline;
+}
+
+.navigation-buttons a:active {
+    color: orangered;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media a {
+    display: block;
+    padding: 0;    
+}
+
+.facebook{
+    margin-right: 20px;
+}
+
+
+
+/* -----  MAIN  ----- */
+.section-1 {
+    background-color: var(--section-1);
+}
+
+.section-1 .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #181818;
+}
+
+.section {
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1),
+                0 4px 4px rgba(0, 0, 0, 0.1),
+                0 8px 8px rgba(0, 0, 0, 0.1),
+                0 0 16px rgba(0, 0, 0, 0.15);
+}
+
+.section h4 {
+    margin-top: 1rem;
+}
+
+.section h4 a {
+    color: #181818;
+}
+
+.section h4 a:hover {
+    color: rgb(102, 101, 101);
+}
+
+.uno {
+    padding: 15px;
+}
+
+.dos {
+    flex: 200px;
+    padding: 5px;
+}
+
+.dos:hover {
+    transform: scale(1.03);
+}
+
+.ventas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ventas div {
+    flex: 300px;
+}
+
+
+
+
+/* -- section-2 -- */
+.section-2 {
+    background-color: var(--section-2);
+}
+
+
+
+/* -----  FOOTER  ----- */
+footer {
+    background-color: var(--footer);
+    color: #181818;
+}
+
+.redaccion {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #575659;
+}
+
+.redaccion ul {
+    width: 300px;
+}
+
+.redaccion ul li a {
+    color: #181818;
+}
+
+.redaccion ul li a:hover {
+    text-decoration: underline;
+}
+
+.redaccion ul li {
+    margin-bottom: 1rem;
+}
+
+.aviso {
+    flex: 250px;
+}
+
+.aviso h3 {
+    margin-bottom: 1rem;
+}
+
+.espacio {
+    margin-bottom: 25px;
+}
+
+.aviso p:last-of-type {
+    text-align: right;
+}
+
+
+
+/* -- Company Logo -- */
+.company {
+    display: flex;
+    justify-content: center;
+    font-family: tahoma;
+}
+
+.company-logo {
+    width: 230px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25),
+                0px 2px 2px rgba(0, 0, 0, 0.25),
+                0px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.company-logo p {
+    font-size: .83rem;
+    position: relative;
+    top: 4px;
+}
+.company-logo h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #181818;
+}

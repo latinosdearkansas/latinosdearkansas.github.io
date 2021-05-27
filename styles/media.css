@@ -1,0 +1,55 @@
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    section,
+    footer {
+        padding: 40px 10px;
+    }
+
+    /* -----  HEADER  ----- */
+
+
+    /* -----  MAIN  ----- */
+
+
+    /* -----  FOOTER  ----- */
+}
+
+
+
+@media only screen and (min-width: 1001px) {
+    section,
+    footer {
+        padding: 40px 10px;
+    }
+
+
+    /* -----  HEADER  ----- */
+
+
+    /* -----  Navigation  ----- */
+    .navigation-buttons a:hover {
+        text-decoration: none;
+        color: #181818;
+        background-color: #fafafa;
+    }
+
+    .navigation-buttons a:active {
+        color: orangered;
+    }
+
+
+    /* -----  MAIN  ----- */
+    .noticias {
+        max-width: 908px;
+    }
+
+    .ventas {
+        width: 280px;
+        display: block;
+    }
+
+    .ventas div {
+        margin-bottom: 10px;
+    }
+
+    /* -----  FOOTER  ----- */
+}
