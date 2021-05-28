@@ -5,7 +5,14 @@
     }
 
     /* -----  HEADER  ----- */
+    .main-header img {
+        width: 40px;
+    }
 
+    .main-header h1 {
+        font-size: 2rem;
+    }
+    
 
     /* -----  MAIN  ----- */
 
@@ -23,6 +30,13 @@
 
 
     /* -----  HEADER  ----- */
+    .main-header img {
+        width: 40px;
+    }
+
+    .main-header h1 {
+        font-size: 2rem;
+    }
 
 
     /* -----  Navigation  ----- */
