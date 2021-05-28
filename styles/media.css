@@ -7,10 +7,18 @@
     /* -----  HEADER  ----- */
     .main-header img {
         width: 40px;
-    }
-
+    } 
+    
     .main-header h1 {
         font-size: 2rem;
+    }
+    
+    
+    /* -----  Navigation  ----- */
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 1;
     }
     
 
@@ -40,6 +48,12 @@
 
 
     /* -----  Navigation  ----- */
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    
     .navigation-buttons a:hover {
         text-decoration: none;
         color: #181818;
