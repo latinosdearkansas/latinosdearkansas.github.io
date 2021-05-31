@@ -126,7 +126,10 @@ nav {
 
 /* -----  MAIN  ----- */
 .section-1 {
-    background-color: var(--section-1);
+    background: linear-gradient(#fafafad9, #fafafa),
+                url(../images/flags1.jpg);
+    background-attachment: scroll;
+    background-position: top center;
 }
 
 .section-1 .container {
