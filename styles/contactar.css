@@ -11,6 +11,12 @@
     margin-bottom: 4rem;
 }
 
-.contacto {
-    width: 40px;
+.contacto a {
+    display: flex;
+    align-items: center;
+}
+
+.contacto a img {
+    width: 25px;
+    margin-left: 10px;
 }
