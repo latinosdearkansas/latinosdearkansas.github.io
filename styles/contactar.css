@@ -8,13 +8,16 @@
 }
 
 .noticias div p {
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+.noticias .contacto {
+    margin-bottom: 1.5rem;
 }
 
 .contacto a {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .contacto a img {
