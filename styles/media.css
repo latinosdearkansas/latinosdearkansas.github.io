@@ -6,7 +6,7 @@
     }
 
     .navigation-buttons > div > img {
-        margin-right: 20px;
+        display: none;
     }
 
     .navigation-buttons ul {
@@ -20,11 +20,12 @@
     }
 
     .navigation-buttons ul li {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .fas.fa-bars {
         margin-right: auto;
+        margin-left: 30px;
     }
 }
 

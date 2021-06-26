@@ -5,5 +5,5 @@ function hideMenu () {
 }
 
 function showMenu () {
-    navLinks.style.left= '0';
+    navLinks.style.left= '-10px';
 }
