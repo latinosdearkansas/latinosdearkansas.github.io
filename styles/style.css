@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'opensans';
     /* border: 1px solid lightseagreen; */
 }
 
@@ -17,6 +17,7 @@
 
 p {
     line-height: 1.6rem;
+    font-size: 15px;
 }
 
 a {
@@ -240,6 +241,7 @@ footer {
 }
 
 .redaccion ul li a {
+    font-size: 15px;
     color: #181818;
 }
 
@@ -278,6 +280,7 @@ footer {
 
 .company a {
     color: inherit;
+    font-size: 15px;
 }
 
 .company-logo {
@@ -303,7 +306,7 @@ footer {
 }
 
 .company-logo p {
-    font-size: .83rem;
+    font-size: .7rem;
     position: relative;
     top: 4px;
 }
