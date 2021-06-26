@@ -98,11 +98,23 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 5px;
+
+    position: relative;
 }
 
 .navigation-buttons img {
     width: 30px;
+}
+
+.navigation-buttons ul {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fas {
+    display: none;
 }
 
 .navigation-buttons a {

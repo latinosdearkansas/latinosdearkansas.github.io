@@ -20,7 +20,8 @@
     align-items: center;
 }
 
-.contacto a img {
-    width: 25px;
+.contacto a span {
+    color: var(--navigation);
+    font-size: 18px;
     margin-left: 10px;
 }

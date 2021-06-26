@@ -1,3 +1,35 @@
+@media only screen and (max-width: 599px) {
+    .fas {
+        display: block;
+        color: whitesmoke;
+        font-size: 30px;
+    }
+
+    .navigation-buttons > div > img {
+        margin-right: 20px;
+    }
+
+    .navigation-buttons ul {
+        background-color: var(--navigation);
+        padding: 0 0 0 52px;
+        flex-direction: column;
+        position: absolute;
+        top: 0; 
+        left: -480px;
+        transition: 1s;       
+    }
+
+    .navigation-buttons ul li {
+        margin-bottom: 50px;
+    }
+
+    .fas.fa-bars {
+        margin-right: auto;
+    }
+}
+
+
+
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     section,
     footer {

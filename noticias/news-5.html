@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <title>news-5 - Latinos de Arkansas</title>
     <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="../font-awesome-5.0/css/all.css">
     <link rel="stylesheet" href="../styles/fonts.css">
     <link rel="stylesheet" href="../styles/style.css">    
     <link rel="stylesheet" href="../styles/media.css">
@@ -27,19 +28,33 @@
 
     <!-- ----- Navigation ----- -->
     <nav>
-        <ul class="container navigation-buttons">
-            <li><img src="../images/header/arkansas-1.png" alt=""></li>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="index.html">Noticias</a></li>
-            <li><a href="../eventos/index.html">Eventos</a></li>
-            <li><a href="../anuncios/index.html">Anucios</a></li>
-            <li><a href="../patrocinadores/index.html">Patrocinadores</a></li>
-            <li><a href="../contactar/index.html">Contactar</a></li>
-            <li class="social-media">
-                <div class="facebook"><a href="https://www.facebook.com" target="_blank"><img src="../images/header/facebook.png" alt=""></a></div>
-                <div><a href="https://www.twitter.com" target="_blank"><img src="../images/header/twitter.png" alt=""></a></div>
-            </li>
-        </ul>
+        <div class="container navigation-buttons">
+            <div>
+                <img src="../images/header/arkansas-1.png" alt="">
+            </div>
+            <ul id="navLinks">
+                <li class="fas fa-times" onclick="hideMenu()"></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="index.html">Noticias</a></li>
+                <li><a href="../eventos/index.html">Eventos</a></li>
+                <li><a href="../anuncios/index.html">Anucios</a></li>
+                <li><a href="../patrocinadores/index.html">Patrocinadores</a></li>
+                <li><a href="../contactar/index.html">Contactar</a></li>
+            </ul>
+            <div class="fas fa-bars" onclick="showMenu()"></div>
+            <div class="social-media">
+                <div class="facebook">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="../images/header/facebook.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="../images/header/twitter.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>        
     </nav>
 
     <!-- -----  MAIN  ----- -->
