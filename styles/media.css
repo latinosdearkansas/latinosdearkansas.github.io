@@ -53,6 +53,10 @@
         top: 0;
         z-index: 1;
     }
+
+    .navigation-buttons ul {
+        width: 82%;
+    }
     
 
     /* -----  MAIN  ----- */
