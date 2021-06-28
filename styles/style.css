@@ -78,6 +78,7 @@ header {
 }
 
 .main-header img {
+    display: none;
     width: 30px;
 }
 
