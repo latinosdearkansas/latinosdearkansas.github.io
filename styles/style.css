@@ -40,6 +40,13 @@ img {
     width: 100%
 }
 
+body {
+    background: linear-gradient(#fafafad9, #fafafa),
+                url(../images/flags1.jpg);
+    background-attachment: scroll;
+    background-position: top center;
+}
+
 header,
 nav,
 section,
@@ -60,7 +67,7 @@ footer {
 
 /* -----  HEADER  ----- */
 header {
-    background-color: var(--header);
+    /* background-color: var(--header); */
     color: #303030;
 }
 
@@ -148,12 +155,12 @@ nav {
 
 
 /* -----  MAIN  ----- */
-.section-1 {
+/* .section-1 {
     background: linear-gradient(#fafafad9, #fafafa),
                 url(../images/flags1.jpg);
     background-attachment: scroll;
     background-position: top center;
-}
+} */
 
 .section-1 .container {
     display: flex;
