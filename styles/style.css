@@ -12,7 +12,7 @@
     --section-1: #fafafa;
     --section-2: lightcoral;
     --section-3: lightblue;
-    --footer:  #e4fded;
+    --footer:  #dde6f1;
 }
 
 p {
@@ -177,10 +177,10 @@ nav {
 }
 
 .section {
-    border-radius: 5px;
+    background-color: rgba(250, 250, 250, 0.5);
+    /* border-radius: 5px; */
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                 0 2px 2px rgba(0, 0, 0, 0.1),
-                0 4px 4px rgba(0, 0, 0, 0.1),
                 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
