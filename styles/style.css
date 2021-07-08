@@ -166,13 +166,13 @@ nav {
 .section-1 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .noticias {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     color: #181818;
 }
 
@@ -201,7 +201,7 @@ nav {
 }
 
 .dos {
-    flex: 200px;
+    flex: 250px;
     padding: 8px;
 }
 
@@ -221,7 +221,7 @@ nav {
 .ventas {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .ventas div {

@@ -104,7 +104,7 @@
 
     /* -----  MAIN  ----- */
     .noticias {
-        max-width: 908px;
+        max-width: 900px;
     }
 
     .ventas {
@@ -113,7 +113,7 @@
     }
 
     .ventas div {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     /* -----  FOOTER  ----- */
