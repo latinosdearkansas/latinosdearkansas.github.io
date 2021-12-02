@@ -1,12 +1,15 @@
 let navLinks = document.getElementById("navLinks");
+let showMenu = document.querySelector('.fa-bars');
+let hideMenu = document.querySelector('.fa-times');
 
-function hideMenu () {
+showMenu.onclick = () => {
+    navLinks.style.left= '-10px';
+}
+
+hideMenu.onclick = () => {
     navLinks.style.left= '-480px';
 }
 
-function showMenu () {
-    navLinks.style.left= '-10px';
-}
 
 
 

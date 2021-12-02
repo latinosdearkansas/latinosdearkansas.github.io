@@ -13,6 +13,7 @@
         background-color: var(--navigation);
         padding: 0 0 0 52px;
         flex-direction: column;
+
         position: absolute;
         top: 0; 
         left: -480px;
@@ -21,6 +22,10 @@
 
     .navigation-buttons ul li {
         margin-bottom: 30px;
+    }
+
+    .navigation-buttons ul li:last-of-type {
+        padding-bottom: 350px;
     }
 
     .fas.fa-bars {
