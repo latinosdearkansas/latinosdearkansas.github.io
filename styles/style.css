@@ -8,7 +8,7 @@
 
 :root {
     --header: #fafafa;
-    --navigation: #333333;
+    --navigation: #202020;
     --section-1: #fafafa;
     --section-2: lightcoral;
     --section-3: lightblue;
@@ -68,7 +68,7 @@ footer {
 /* -----  HEADER  ----- */
 header {
     /* background-color: var(--header); */
-    color: #303030;
+    color: #202020;
 }
 
 .main-header {
@@ -156,12 +156,6 @@ nav {
 
 
 /* -----  MAIN  ----- */
-/* .section-1 {
-    background: linear-gradient(#fafafad9, #fafafa),
-                url(../images/flags1.jpg);
-    background-attachment: scroll;
-    background-position: top center;
-} */
 
 .section-1 .container {
     display: flex;
@@ -173,15 +167,16 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    color: #181818;
+    color: #202020;
 }
 
 .section {
     background-color: rgba(250, 250, 250, 0.5);
     /* border-radius: 5px; */
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08),
-                0 2px 2px rgba(0, 0, 0, 0.08),
-                0 0 4px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 1px #dde6f1,
+                0 2px 2px #dde6f1,
+                0 4px 4px #dde6f1,
+                0 0 6px #dde6f1;
 }
 
 .section h4 {
@@ -189,7 +184,7 @@ nav {
 }
 
 .section h4 a {
-    color: #181818;
+    color: #202020;
 }
 
 .section h4 a:hover {
@@ -245,7 +240,7 @@ nav {
 /* -----  FOOTER  ----- */
 footer {
     background-color: var(--footer);
-    color: #181818;
+    color: #202020;
 }
 
 .redaccion {
@@ -253,7 +248,7 @@ footer {
     flex-wrap: wrap;
     padding-bottom: 40px;
     margin-bottom: 40px;
-    border-bottom: 2px solid #575659;
+    border-bottom: 2px solid #5e5e5e;
 }
 
 .redaccion ul {
@@ -262,7 +257,7 @@ footer {
 
 .redaccion ul li a {
     font-size: 15px;
-    color: #181818;
+    color: #202020;
 }
 
 .redaccion ul li a:hover {
@@ -306,11 +301,16 @@ footer {
 .company-logo {
     width: 230px;
     border-radius: 5px;
+    border: 3px solid #dde6f1;
     text-align: center;
     padding: 10px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25),
-                0px 2px 2px rgba(0, 0, 0, 0.25),
-                0px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: -1px -1px 2px #F2F6FA,
+                -2px -2px 4px #F2F6FA,
+                -4px -4px 8px #F2F6FA,
+                1px 1px 2px #ACBBCE,
+                2px 2px 4px #ACBBCE,
+                4px 4px 8px #ACBBCE,
+                inset 0 0 3px #ACBBCE;
 }
 
 .company-logo:hover {
@@ -333,5 +333,5 @@ footer {
 .company-logo h2 {
     font-weight: normal;
     text-transform: uppercase;
-    color: #181818;
+    color: #202020;
 }
