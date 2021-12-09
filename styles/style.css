@@ -299,7 +299,7 @@ footer {
 }
 
 .company-logo {
-    width: 230px;
+    width: 220px;
     border-radius: 5px;
     border: 3px solid #dde6f1;
     text-align: center;
@@ -333,5 +333,5 @@ footer {
 .company-logo h2 {
     font-weight: normal;
     text-transform: uppercase;
-    color: #202020;
+    color: #e93e00;
 }
