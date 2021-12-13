@@ -301,7 +301,7 @@ footer {
 .company-logo {
     width: 220px;
     border-radius: 5px;
-    border: 3px solid #dde6f1;
+    border: 3px solid #d6e2f0;
     text-align: center;
     padding: 10px;
     box-shadow: -1px -1px 2px #F2F6FA,
@@ -310,7 +310,11 @@ footer {
                 1px 1px 2px #ACBBCE,
                 2px 2px 4px #ACBBCE,
                 4px 4px 8px #ACBBCE,
-                inset 0 0 3px #ACBBCE;
+                inset 0 0 3px #ACBBCE,
+                inset 1px 1px 2px #ACBBCE,
+                inset 2px 2px 4px #ACBBCE,
+                inset -1px -1px 2px #F2F6FA,
+                inset -2px -2px 4px #F2F6FA;
 }
 
 .company-logo:hover {
@@ -334,4 +338,5 @@ footer {
     font-weight: normal;
     text-transform: uppercase;
     color: #e93e00;
+    text-shadow: 0 1px 2px #ACBBCE;
 }

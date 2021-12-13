@@ -12,8 +12,6 @@ hideMenu.onclick = () => {
 
 
 
-
-
 const mainLink = document.querySelector('.main-image');
 const mainImage = document.querySelector('.main-image > img');
 const originalText = document.querySelector('.original-text > a');
@@ -38,3 +36,5 @@ setInterval(function() {
     }
     
 }, 6000)
+
+const patrocinadoresMainLink = document.querySelectorAll('.ventas > section > a');
