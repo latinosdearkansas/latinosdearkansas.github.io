@@ -37,4 +37,9 @@ setInterval(function() {
     
 }, 6000)
 
-const patrocinadoresMainLink = document.querySelectorAll('.ventas > section > a');
+
+
+// -----  Patrocinadores  -----
+const patrocinadoresMainLink = document.querySelectorAll('.ventas > .section > a');
+const patrocinadoresMainImage = document.querySelectorAll('.ventas > .section > a > img');
+
