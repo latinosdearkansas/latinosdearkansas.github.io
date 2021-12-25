@@ -58,15 +58,15 @@ const patrocinadoresReplacementImage = [
 
 const patrocinadoresReplacementLink = [
     'https://latinosdearkansas.github.io/deepperformancecustoms/',
-    'patrocinadores/index.html',
-    'patrocinadores/index.html',
-    'patrocinadores/index.html',
-    'patrocinadores/index.html',
-    'patrocinadores/index.html',
-    'patrocinadores/index.html',
-    'patrocinadores/index.html',
-    'patrocinadores/index.html',
-    'patrocinadores/index.html'
+    '../patrocinadores/index.html',
+    '../patrocinadores/index.html',
+    '../patrocinadores/index.html',
+    '../patrocinadores/index.html',
+    '../patrocinadores/index.html',
+    '../patrocinadores/index.html',
+    '../patrocinadores/index.html',
+    '../patrocinadores/index.html',
+    '../patrocinadores/index.html'
 ]
 
 //fix code so page will only display blank if the page is in another webpage
