@@ -122,4 +122,11 @@
     }
 
     /* -----  FOOTER  ----- */
+    .aviso h3 {
+        font-size: 26px;
+    }
+    
+    .espacio {
+        margin-bottom: 40px;
+    }
 }
