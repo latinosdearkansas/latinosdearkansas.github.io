@@ -44,7 +44,7 @@ const patrocinadoresMainLink = Array.from(document.querySelectorAll('.ventas > .
 const patrocinadoresMainImage = Array.from(document.querySelectorAll('.ventas > .section > a > img'));
 
 const patrocinadoresReplacementImage = [
-    'deepperformance',
+    'deep-performance',
     'audi',
     'beach',
     'chita',
