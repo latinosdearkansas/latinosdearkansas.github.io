@@ -58,6 +58,14 @@ const patrocinadoresReplacementImage = [
 
 const patrocinadoresReplacementLink = [
     'https://latinosdearkansas.github.io/deepperformancecustoms/',
+    'patrocinadores/index.html',
+    'patrocinadores/index.html',
+    'patrocinadores/index.html',
+    'patrocinadores/index.html',
+    'patrocinadores/index.html',
+    'patrocinadores/index.html',
+    'patrocinadores/index.html',
+    'patrocinadores/index.html',
     'patrocinadores/index.html'
 ]
 
