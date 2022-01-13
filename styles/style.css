@@ -41,7 +41,7 @@ img {
 }
 
 body {
-    background: linear-gradient(#fafafad9, #fafafa),
+    background: linear-gradient(rgba(253, 253, 253, 0.92), rgb(253, 253, 253)),
                 url(../images/flags1.jpg);
     background-attachment: scroll;
     background-position: top center;
@@ -171,7 +171,7 @@ nav {
 }
 
 .section {
-    background-color: rgba(250, 250, 250, 0.5);
+    background-color: rgba(253, 253, 253, 0.5);
     /* border-radius: 5px; */
     box-shadow: 0 2px 4px 1px rgba(172, 187, 206, 0.5);
 }
@@ -269,12 +269,16 @@ footer {
     flex: 250px;
 }
 
+.aviso p {
+    margin-left: 20px;
+}
+
 .aviso h3 {
     margin-bottom: 1rem;
 }
 
 .espacio {
-    margin-bottom: 25px;
+    margin-bottom: 3rem;
 }
 
 .aviso p:last-of-type {
