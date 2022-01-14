@@ -269,12 +269,8 @@ footer {
     flex: 250px;
 }
 
-.aviso p {
-    margin-left: 20px;
-}
-
 .aviso h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .espacio {

@@ -4,12 +4,11 @@
 }
 
 .noticias div h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .noticias div p {
     margin-bottom: 3rem;
-    margin-left: 20px;
 }
 
 .noticias .contacto {
